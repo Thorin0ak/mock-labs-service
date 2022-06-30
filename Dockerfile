@@ -28,4 +28,4 @@ COPY . .
 COPY --from=development /app/dist ./dist
 
 ENV TS_NODE_PROJECT=./tsconfig.run.json
-CMD ["node", "dist/main"]
+CMD ["node", "dist/src/main"]
