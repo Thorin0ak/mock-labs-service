@@ -1,0 +1,3 @@
+name: mock-lab-results-service
+runtime: nodejs
+description: Mock Lab Results Nest.js Service
